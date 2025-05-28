@@ -1,0 +1,4 @@
+Nome,Descrizione,Costo_€/h,Velocita
+NC4as T4 v3,1x NVIDIA T4 GPU con 16 vCPU e 112 GB RAM,0.54,0.6
+NC64as T4 v3,4x NVIDIA T4 GPU con 256 vCPU e 1792 GB RAM,4.465,2.5
+ND96asr A100 v4,8x NVIDIA A100 80GB GPU con 96 vCPU e 900+ GB RAM,31.072,24
