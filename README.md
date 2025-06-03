@@ -1,14 +1,14 @@
 # EPICODE Capstone
 
-Il progetto prevede lo sviluppo e l'analisi comparativa di diversi modelli di Machine Learning per la classificazione automatica di oggetti astronomici, quali stelle, galassie e quasar, utilizzando i dati del catalogo SDSS (Sloan Digital Sky Survey).
-    
+Il progetto ha lo scopo di esplorare e confrontare diverse soluzioni di machine learning applicate alla **classificazione** di dati tabulari. In particolare, l'analisi si concentra sulla capacità dei modelli di distinguere tre classi di oggetti astronomici: **Galassie**, **Quasar** e **Stelle**, utilizzando i dati del catalogo SDSS (Sloan Digital Sky Survey).
+
 ---
 
 ## Obiettivi 
-- Valutare le prestazioni predittive dei modelli
-- Analizzare l'impatto computazionale in termini di tempi di addestramento, consumo energetico e stima delle emissioni di CO2. 
+- Addestrare e valutare le prestazioni predittive dei modelli utilizzando metriche di classificazione come F1 Score e Balanced Accuracy.
+- Stimare i costi per l’addestramento dei modelli sul servizio cloud computing **Azure Machine Learning**.
 
-*Tutte le misurazioni energetiche vengono effettuate utilizzando un computer personale e rappresentano stime comparative tra i modelli piuttosto che valori assoluti.*    
+*L'addestramento iniziale viene eseguito su un computer personale con specifiche hardware riportate alla fine.*    
 
 ---
 
@@ -16,27 +16,19 @@ Il progetto prevede lo sviluppo e l'analisi comparativa di diversi modelli di Ma
 
 - **SQL** per l'estrazione dei dati del database SDSS.
 
-- **Python**, strumento principale, utilizzato per la manipolazione, esplorazione, addestramento e valutazione dei modelli.
+- **Python** JupyterLab, strumento principale utilizzato per la manipolazione, esplorazione dei dati e per l'addestramento e la valutazione dei modelli.
     
-- **Power BI** per la visualizzazione interattiva dei risultati su metriche energetiche e impatto ambientale.
+- **Power BI** per la visualizzazione interattiva dei risultati.
     
 ---
 
-## Modelli di Machine Learning
+## Modelli Scelti
 
-Per la classificazione degli oggetti astronomici sono stati adottati quattro modelli, scelti per rappresentare approcci eterogenei e confrontabili sia in termini prestazionali che computazionali:
-
-- **Random Forest**: configurato per supportare la classificazione multiclasse e gestire lo sbilanciamento del dataset.
-    
-- **XGBoost (Extreme Gradient Boosting)**: per l’elevata precisione su dati strutturati e per l'efficienza computazionale.
-    
-- **FNN (Feedforward Neural Network)**: rete neurale profonda composta da più layer densi. Ottimizzata tramite una funzione di perdita pesata (`CrossEntropyLoss`) per gestire la distribuzione sbilanciata delle classi.
-    
-- **Transformer Tabellare (TabTransformer)**: architettura ispirata ai Transformer NLP, adattata a dati tabellari. Inclusa per confrontare un approccio moderno con i modelli più tradizionali.
+Per la classificazione degli oggetti astronomici sono stati scelti due modelli di machine learning, **Random Forest** e **XGBoost**, e due modelli di deep learning, **Multilayer Perceptron** e **Tabular Transformer**. Ognuno di essi è stato valutato in base alla numero di oggetti correttamente identificati per ciascuna classe e alle metriche di classificazione come F1 Score e Balanced Accuracy.
 
 ---
 
 ### Hardware utilizzato
-- **CPU**: Intel Core i7-12700K (TDP 125W)
-- **GPU**: NVIDIA RTX 3060 12GB GDDR6 (TDP 170W)
+- **CPU**: Intel Core i7-12700K
+- **GPU**: NVIDIA RTX 3060 12GB GDDR6
 - **RAM**: 32GB DDR5
