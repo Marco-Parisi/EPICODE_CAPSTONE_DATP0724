@@ -27,5 +27,5 @@ Per svolgere questo task sono stati scelti due modelli di machine learning, **Ra
 
 ---
 
-# Anteprima Report Power BI
+## Anteprima del Report in Power BI
 ![Analisi Modelli ML-1](https://github.com/user-attachments/assets/0f777dfd-8c1f-42b8-920f-520e13b206f4)
