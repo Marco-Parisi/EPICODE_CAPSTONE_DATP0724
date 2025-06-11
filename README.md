@@ -25,9 +25,15 @@ Per svolgere questo task sono stati scelti due modelli di machine learning, **Ra
 - **GPU**: NVIDIA RTX 3060 12GB GDDR6
 - **RAM**: 32GB DDR5
 
- [Link al dataset](https://drive.google.com/file/d/1brT78QRggRkZhLIbCDpeoiFuwgm5_T0U/view?usp=sharing) ~ 700MB
- 
----
-
 ## Anteprima del Report in Power BI
 ![Analisi Modelli ML-1](https://github.com/user-attachments/assets/0f777dfd-8c1f-42b8-920f-520e13b206f4)
+
+### Fonte Dati
+
+Questo progetto utilizza dati provenienti dallo Sloan Digital Sky Survey (SDSS), release DR17.  
+Per maggiori informazioni sulle politiche di utilizzo dei dati, visitare il sito ufficiale: https://www.sdss.org/collaboration/citing-sdss/
+  
+Abdurro'uf et al. (2022), *The 17th Data Release of the Sloan Digital Sky Surveys: Complete Release of MaNGA, MaStar, and APOGEE-2 Data*, The Astrophysical Journal Supplement Series, 259(2), 35.  
+DOI: [10.3847/1538-4365/ac4414](https://doi.org/10.3847/1538-4365/ac4414)
+
+[Link al dataset](https://drive.google.com/file/d/1brT78QRggRkZhLIbCDpeoiFuwgm5_T0U/view?usp=sharing) ~ 700MB
