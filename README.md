@@ -25,6 +25,8 @@ Per svolgere questo task sono stati scelti due modelli di machine learning, **Ra
 - **GPU**: NVIDIA RTX 3060 12GB GDDR6
 - **RAM**: 32GB DDR5
 
+ [Link al dataset](https://drive.google.com/file/d/1brT78QRggRkZhLIbCDpeoiFuwgm5_T0U/view?usp=sharing) ~ 700MB
+ 
 ---
 
 ## Anteprima del Report in Power BI
